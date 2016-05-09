@@ -1,0 +1,18 @@
+{
+  "name": "node-sendmail",
+  "version": "1.0.0",
+  "description": "Mail sending rest api",
+  "main": "mailsender.js",
+  "author": "pablozaiden",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "nconf": "^0.8.4",
+    "nodemailer": "^2.3.2"
+  },
+  "scripts": {
+    "start": "node mailsender.js"
+  }  
+}
